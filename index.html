@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="conteaner">
+            <header class="header">
+                <nav class="header__nav">
+                    <div class="header__nav-left">
+                        <a href="#">
+                            <img src="./img/tovaradar-logo.png" alt="logo">
+                        </a>
+                        <select>
+                            <option value="tashkent">Ташкент, Узбекистан</option>
+                            <option value="samarqand">Самарканд, Узбекистан</option>
+                            <option value="buxara">Бухара, Узбекистан</option>
+                        </select>
+                    </div>
+                    <div class="header__nav-center">
+                        <button class="header__nav-center_btn">Каталог</button>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="Recipient's username"
+                                aria-label="Recipient's username" aria-describedby="basic-addon2">
+                            <button class="input-group-text" id="basic-addon2"><img src="./img/лупа.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header__nav">
+
+                        <ul class="ul__nav">
+
+                            <li class="list__nav">
+                                <a href="#" class="header__nav__link">
+                                    <img src="./img/user-icon.png" alt="" class="aa">
+                                    <p>Войти</p>
+                                </a>
+                            </li>
+
+
+
+                            <li class="list__nav">
+                                <a href="#" class="header__nav__link">
+                                    <img src="./img/shop-icon.png" alt="" class="aa">
+                                    <p>Заказы</p>
+                                </a>
+                            </li>
+
+
+                            <li class="list__nav">
+                                <a href="#" class="header__nav__link">
+                                    <img src="./img/fav-icon.png" alt="" class="aaa">
+                                    <p>Избранные</p>
+                                </a>
+                            </li>
+
+                            <li class="list__nav">
+                                <a href="#" class="header__nav__link">
+                                    <img src="./img/basket-icon.png" alt="" class="aa">
+                                    <p>Корзина</p>
+                                </a>
+                            </li>
+
+
+
+                        </ul>
+
+                    </div>
+
+                </nav>
+            </header>
+
+            <section class="section__corusel">
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/image 2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/image 2.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/image 2.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+            </section>
+
+            <section class="section__card">
+
+                <div class="flex__big__card">
+
+
+
+                    <div class="card1">
+
+                        <div class="img__flex">
+
+                            <img src="./img/picture.png" alt="">
+
+                            <p>Электроника</p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="card1">
+
+                        <div class="img__flex">
+
+                            <img src="./img/picture (1).png" alt="">
+
+                            <p>Быловые товары</p>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="card1">
+
+                        <div class="img__flex">
+
+                            <img src="./img/picture (2).png" alt="">
+
+                            <p>Книги, хобби, канцелярия</p>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="card1">
+
+                        <div class="img__flex">
+
+                            <img src="./img/picture (3).png" alt="">
+
+                            <p>Продукты питания</p>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </section>
+
+            <section class="mini__card">
+
+                <div class="card__grid">
+
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (4).png" alt="">
+
+                        <p>Детские товары</p>
+
+                    </div>
+
+
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (5).png" alt="">
+
+                        <p>Одежда, обувь и аксессуары</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (6).png" alt="">
+
+                        <p>Зоотовары</p>
+
+                    </div>
+
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (7).png" alt="">
+
+                        <p>Красота и уход</p>
+
+                    </div>
+
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (8).png" alt="">
+
+                        <p>Детские товары</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (9).png" alt="">
+
+                        <p>Одежда, обувь и аксессуары</p>
+
+                    </div>
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (10).png" alt="">
+
+                        <p>Зоотовары</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (11).png" alt="">
+
+                        <p>Красота и уход</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (12).png" alt="">
+
+                        <p>Детские товары</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (13).png" alt="">
+
+                        <p>Одежда, обувь и аксессуары</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (14).png" alt="">
+
+                        <p>Зоотовары</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (15).png" alt="">
+
+                        <p>Красота и уход</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (8).png" alt="">
+
+                        <p>Детские товары</p>
+
+                    </div>
+
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (9).png" alt="">
+
+                        <p>Одежда, обувь и аксессуары</p>
+
+                    </div>
+
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (10).png" alt="">
+
+                        <p>Зоотовары</p>
+
+                    </div>
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (11).png" alt="">
+
+                        <p>Красота и уход</p>
+
+                    </div>
+
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (6).png" alt="">
+
+                        <p>Детские товары</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (17).png" alt="">
+
+                        <p>Одежда, обувь и аксессуары</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (8).png" alt="">
+
+                        <p>Красота и уход</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (9).png" alt="">
+
+                        <p>Детские товары</p>
+
+                    </div>
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (10).png" alt="">
+
+                        <p>Одежда, обувь и аксессуары</p>
+
+                    </div>
+
+
+                    <div class="card__mini1">
+
+
+                        <img src="./img/picture (14).png" alt="">
+
+                        <p>Зоотовары</p>
+
+                    </div>
+
+
+
+                </div>
+
+            </section>
+
+
+            <section class="magazin">
+
+
+                <h1>Популярная компьютерная техника</h1>
+
+
+                <div class="grid__mag">
+
+                    <div class="card21">
+
+                        <img src="./img/airpods.png" alt="">
+
+                        <div class="text">
+                            <h5>от 3000 ₽</h5>
+                            <p>Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver </p>
+                        </div>
+
+                        <div class="btnddd">
+
+                            <button class="bttn">Купить</button>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="card21">
+
+                        <img src="./img/Mack.png" alt="">
+
+                        <div class="text">
+                            <h5>от 3000 ₽</h5>
+                            <p>Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver (53013ERK)</p>
+                        </div>
+
+                        <div class="btnddd">
+
+                            <button class="bttn">Купить</button>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="card21">
+
+                        <img src="./img/alisa.png" alt="">
+
+                        <div class="text">
+                            <h5>от 3000 ₽</h5>
+                            <p>Умная колонка Яндекс
+                                Станция Мини</p>
+                        </div>
+
+                        <div class="btnddd">
+
+                            <button class="bttn">Купить</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="card21">
+
+                        <img src="./img/polisos.png" alt="">
+
+                        <div class="text">
+                            <h5>от 3000 ₽</h5>
+                            <p>Робот-пылесос Xiaomi
+                                Mi Robot</p>
+                        </div>
+
+                        <div class="btnddd">
+
+                            <button class="bttn">Купить</button>
+
+                        </div>
+
+
+                    </div>
+
+            </section>
+
+
+            <section class="magazin">
+
+                <div class="grid__mag">
+
+                    <div class="card21">
+
+                        <img src="./img/airpods.png" alt="">
+
+                        <div class="text">
+                            <h5>от 3000 ₽</h5>
+                            <p>Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver </p>
+                        </div>
+
+                        <div class="btnddd">
+
+                            <button class="bttn">Купить</button>
+
+                        </div>
+
+                    </div>
+
+
+
+
+
+                    <div class="card21">
+
+                        <img src="./img/Mack.png" alt="">
+
+                        <div class="text">
+                            <h5>от 3000 ₽</h5>
+                            <p>Ультрабук Huawei MateBook D 14 NbD-WDI9 Mystic Silver (53013ERK)</p>
+                        </div>
+
+                        <div class="btnddd">
+
+                            <button class="bttn">Купить</button>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="card21">
+
+                        <img src="./img/alisa.png" alt="">
+
+                        <div class="text">
+                            <h5>от 3000 ₽</h5>
+                            <p>Умная колонка Яндекс
+                                Станция Мини</p>
+                        </div>
+
+                        <div class="btnddd">
+
+                            <button class="bttn">Купить</button>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="card21">
+
+                        <img src="./img/polisos.png" alt="">
+
+                        <div class="text">
+                            <h5>от 3000 ₽</h5>
+                            <p>Робот-пылесос Xiaomi
+                                Mi Robot</p>
+                        </div>
+
+                        <div class="btnddd">
+
+                            <button class="bttn">Купить</button>
+
+                        </div>
+
+
+                    </div>
+
+            </section>
+
+
+            <section>
+
+                <input class="btn btn-primary" type="submit" value="Ещё">
+
+            </section>
+
+
+            <section>
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/coru.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/coru.png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/coru.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+
+
+
+            <section>
+
+                <h3>Представительные бренды</h3>
+
+                <div class="population">
+                    <div class="cd">
+                        <img src="./img/logo01.png" alt="">
+
+                    </div>
+
+                    <div class="cd">
+                        <img src="./img/logo02.png" alt="">
+
+                    </div>
+
+                    <div class="cd">
+                        <img src="./img/logo03.png" alt="">
+
+                    </div>
+
+                    <div class="cd">
+                        <img src="./img/logo04.png" alt="">
+
+                    </div>
+
+                    <div class="cd">
+                        <img src="./img/logo05.png" alt="">
+
+                    </div>
+
+                    <div class="cd">
+                        <img src="./img/logo06.png" alt="">
+
+                    </div>
+
+                    <div class="cd">
+                        <img src="./img/logo01 (7).png" alt="">
+
+                    </div>
+
+
+                    <div class="cd">
+                        <img src="./img/logo02 (8).png" alt="">
+
+                    </div>
+
+
+                    <div class="cd">
+                        <img src="./img/logo03 (9).png" alt="">
+
+                    </div>
+
+
+                    <div class="cd">
+                        <img src="./img/logo04 (1).png" alt="">
+
+                    </div>
+
+                    <div class="cd">
+                        <img src="./img/logo06 (1).png" alt="">
+
+                    </div>
+
+                    <div class="cd">
+                        <img src="./img/logo01 (1).png" alt="">
+
+                    </div>
+
+                    <div class="cd">
+                        <img src="./img/logo03 (9).png" alt="">
+
+                    </div>
+
+
+                    <div class="cd1">
+                        <h4> ВСЕ БРЕНДИ </h4>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="p">
+
+                <p id="pp">Корпус выполнен из пластика, а покрытие насадок – из керамики. Имеет простое механическое
+                    управление: при помощи переключателей на корпусе регулируются скорость и температурный режим.
+                    Устройство удобное в хранении и использовании. Размеры в ширину составляют 56 см, в высоту – 264 см,
+                    в глубину – 62 см. Вес равен 360 г. Для удобства эксплуатации рукоятка модели прорезинена и удобно
+                    располагается в руке. Имеется специальная подвесная петля для расположения прибора на специальном
+                    крючке. Щетка имеет диаметр 40 мм и 50 мм. Шнур питания длиной 1,8 м оснащен специальным шарниром у
+                    крепления для защиты от механических повреждений. Возможность вращения провода предотвращает его от
+                    запутывания.
+                    <br><br>
+                    Основные функциональные характеристики:
+                    <br><br>
+                    наличие 2 степеней нагрева;<br>
+                    2 скорости работы воздушного потока;<br>
+                    возможность вращения насадок;<br>
+                    встроенный режим "холодный воздух";<br>
+                    наличие съемной защитной решетки. <br><br>
+                    Функция ионизации осуществляется благодаря турмалиновому покрытию, которое равномерно распределяет
+                    горячий воздух и делает сушку волос эффективной и максимально безопасной.
+
+                    В нашем маркетплейсе вы можете купить "фен-щетка Rowenta Brush Activ Keratin&Shine CF9522F0
+                    Black/Pink" в Москве. Кэшбэк до 495 бонусных рублей. Товар в наличии у 7 продавцов. Цены начинаются
+                    от 4499 рублей
+                </p>
+
+
+
+            </section>
+        </div>
+
+        <footer class="text-center text-lg-start text-white" style="background-color: #45526e">
+            <div class="container p-4 pb-0">
+                <section class="">
+                    <div class="row">
+                        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">
+                                Company name
+                            </h6>
+                            <p>
+                                Here you can use rows and columns to organize your footer
+                                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit.
+                            </p>
+                        </div>
+
+                        <hr class="w-100 clearfix d-md-none" />
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                            <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
+                            <p>
+                                <a class="text-white">MDBootstrap</a>
+                            </p>
+                            <p>
+                                <a class="text-white">MDWordPress</a>
+                            </p>
+                            <p>
+                                <a class="text-white">BrandFlow</a>
+                            </p>
+                            <p>
+                                <a class="text-white">Bootstrap Angular</a>
+                            </p>
+                        </div>-
+
+    </body>
+
+    </html>
+
+</body>
+
+</html>
